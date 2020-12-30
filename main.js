@@ -1,0 +1,34 @@
+var Canvas = document.getElementById("MyCanvas");
+ctx = Canvas.getContext("2d");
+ctx.beginPath();
+ctx.strokeStyle = "red";
+ctx.lineWidth = 20;
+ctx.rect(100,100,800,490);
+ctx.stroke();
+//Circle Blue
+ctx.beginPath();
+ctx.strokeStyle = "blue";
+ctx.lineWidth = 10;
+ctx.arc(325,350,70,0,360);
+ctx.stroke();
+//Circle Yellow
+ctx.beginPath();
+ctx.strokeStyle = "yellow";
+ctx.lineWidth = 10;
+ctx.arc(410,390,70,0,360);
+ctx.stroke();
+ctx.beginPath();
+ctx.strokeStyle = "black";
+ctx.lineWidth = 10;
+ctx.arc(490,350,70,0,360);
+ctx.stroke();
+ctx.beginPath();
+ctx.strokeStyle = "green";
+ctx.lineWidth = 10;
+ctx.arc(590,390,70,0,360);
+ctx.stroke();
+ctx.beginPath();
+ctx.strokeStyle = "red";
+ctx.lineWidth = 10;
+ctx.arc(660,350,70,0,360);
+ctx.stroke();

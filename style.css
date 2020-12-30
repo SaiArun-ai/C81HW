@@ -1,0 +1,11 @@
+.Background{
+    background-image:url("Bg1.jpg");
+    align-content: center;
+    background-position: center;
+	background-size: cover;
+}
+
+#MyCanvas{
+    background-color: rgb(238, 204, 204);
+    align-self:center;
+}
